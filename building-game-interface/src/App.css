@@ -1,0 +1,31 @@
+.fa-star {
+	margin: 0.5em;
+	font-size: 24px;
+}
+
+.answer-number {
+	display: inline-block;
+	margin: 0.5em;
+	text-align: center;
+	background-color: #ccc;
+	width: 24px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.answer-number.selected {
+	background-color: #eee;
+	color: #ddd;
+	cursor: not-allowed;
+}
+
+
+.answer-number.used {
+	background-color: #aaddaa;
+	color: #99bb99;
+	cursor: not-allowed;
+}
+
+.btn-default {
+	
+}
